@@ -11,9 +11,8 @@ BetterErrors.application_root = __dir__
 BetterErrors::Middleware.allow_ip!('0.0.0.0/0.0.0.0')
 
 get("/") do
-  "Hello World"
 "
-  <h1>Dice ROll</h1>
+  <h1>Dice Roll</h1>
   <ul>
     <li><a href=\"/dice/2/6\">Roll two 6-sided dice</a></li>
     <li><a href=\"dice/2/10\">Roll two 10-sided dice</a></li>
