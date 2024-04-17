@@ -1,7 +1,6 @@
 #/ dice.rb
 
 require "sinatra"
-get("/howdy") do
+get("/") do
   return "Hello, world!"
 end
-
